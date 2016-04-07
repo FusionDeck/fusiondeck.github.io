@@ -1,9 +1,39 @@
 html,
 body {
-    background: #2b2b2b;
+    background-image: url("images/main.png");
     font-family: 'Arial', sans-serif;
 }
 .logo {
     float: left;
-    padding: 0px;
+    padding: 20px 0 20px 100px;
+}
+.header {
+    background: #101010;
+    min-height: 90px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/*---------------------------------------MENU------------------------------------------*/
+.menu{
+    background: #FFAC37;
+    text-align: left;
+    color: #E0E0E0;
+    clear: both;
+}
+.menu ul.nav li{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Monsterrat', sans-serif;
+}
+.menu ul.nav li.active, .menu ul.nav li:hover{
+    background: #2b2b2b;
+}
+.menu ul.nav li a{
+    color: #fff;
 }
