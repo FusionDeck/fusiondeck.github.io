@@ -64,10 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .main .container .col-md-5 h2 {
     color: #fff;
     font-size: 60px;
-    margin: 40px 100;
-}
-.main .container .col-md-5 h2 span {
-    border-bottom: 5px solid #1a77ff;
+    margin: 40px 100px;
 }
 .main .container .col-md-5 p {
     color: #fff;
